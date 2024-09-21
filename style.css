@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    background: linear-gradient(158deg,white 63%, rgb(9, 9, 181) 37%);
+    margin: 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    padding-bottom: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+.header .logo{
+    width:100px;
+    filter: brightness(0) saturate(100%) invert(22%) sepia(100%) saturate(4970%) hue-rotate(185deg) brightness(98%) contrast(101%);
+}
+
+ .header .drone-logo {
+    width: 80px;
+}
+
+.header h1 {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+
+.message {
+    text-align: center;
+    color: #1a3d9d;
+    padding: 20px;
+}
+
+.message h2 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #1a3d9d;
+}
+
+.message h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.message p {
+    font-size: 14px;
+    color: #1a3d9d;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+
+.profile-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-container {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    background: linear-gradient(158deg, blue 40%, white 60%);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid transparent;
+    background-clip: padding-box;
+}
+
+.name {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #edf0f8;
+    font-weight: bold;
+    
+}
+
+.designation {
+    font-size: 16px;
+
+    color:white;
+    margin-bottom:20px ;
+}
+
+
+.drone-icons {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    opacity: 0.4;
+    width: 50px;
+}
+
+.drone-icons-right {
+    position: absolute;
+    top: 450px;
+    right: 30px;
+    opacity: 1;
+    width: 30px;
+}
